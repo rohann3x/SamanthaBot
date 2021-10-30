@@ -12,13 +12,13 @@ class script(object):
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
 ✯ 𝙱𝙾𝚃𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
 ✯ 𝙱𝙾𝚃𝚂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃: <a href='https://t.me/TeleRoid14'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
-✯ 𝙱𝙾𝚃𝚂𝙻𝙸𝙰𝚃 : <a href='https://t.me/TheTeleRoid'>@𝙿𝙷𝙻𝚒𝚂𝚝𝙱𝚘𝚝</𝚊>"""
+✯ 𝙱𝙾𝚃𝚂𝙻𝙸𝚂𝚃 : <a href='https://t.me/TheTeleRoid'>@𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/PredatorHackerzZ/EvaMaria  
 
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+- <a href=https://t.me/TheTeleRoid>Team TeleRoid</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
