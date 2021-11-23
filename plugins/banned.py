@@ -25,12 +25,12 @@ async def ban_reply(bot, message):
 @Client.on_message(filters.group & disabled_group & filters.incoming)
 async def grp_bd(bot, message):
     buttons = [[
-        InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+        InlineKeyboardButton('⭕ Support ⭕', url=f'https://t.me/{SUPPORT_CHAT}')
     ]]
     reply_markup=InlineKeyboardMarkup(buttons)
     vazha = await db.get_chat(message.chat.id)
     k = await message.reply(
-        text=f"CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support..\nReason : <code>{vazha['reason']}</code>.",
+        text=f"CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support...@TeleRoid14\nReason : <code>{vazha['reason']}</code>.",
         reply_markup=reply_markup)
     try:
         await k.pin()
