@@ -24,7 +24,12 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
             ],[
-            InlineKeyboardButton('🌀 Join For Movies', url='https://t.me/+jD86CLZqqUBjZDk1')
+            InlineKeyboardButton('⭕ Join For Movies ⭕', url='https://t.me/+jD86CLZqqUBjZDk1')
+            ],[
+            InlineKeyboardButton('🆘 Help', callback_data='help'),
+            InlineKeyboardButton('👥 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -66,7 +71,12 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
             ],[
-            InlineKeyboardButton('🌀 Join For Movies', url='https://t.me/+jD86CLZqqUBjZDk1')
+            InlineKeyboardButton('⭕ Join For Movies ⭕', url='https://t.me/+jD86CLZqqUBjZDk1')
+            ],[
+            InlineKeyboardButton('🆘 Help', callback_data='help'),
+            InlineKeyboardButton('👥 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
