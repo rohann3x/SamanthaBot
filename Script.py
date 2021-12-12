@@ -1,18 +1,18 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙻𝙾 {} 👨‍💻,
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/TeleRoid_AutoFilterBot'>𝙰𝚞𝚝𝚘 𝙵𝚒𝚕𝚝𝚎𝚛 𝙱𝚘𝚝</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: 𝚃𝚎𝚊𝚖 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-✯ 𝙱𝙾𝚃𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
-✯ 𝙱𝙾𝚃𝚂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃: <a href='https://t.me/TeleRoid14'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
-✯ 𝙱𝙾𝚃𝚂𝙻𝙸𝚂𝚃 : <a href='https://t.me/TheTeleRoid'>@𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
+    START_TXT = """Hello {} 👨‍💻,
+My Name is <a href='https://t.me/SamanthaSearchBot'>Samantha Movies Bot</a>, I can Search Movies in Your Group, Just add Me to The Group"""
+    HELP_TXT = """Hell'O {}
+Here is the Help For My Bot Commands."""
+    ABOUT_TXT = """☞ My Name: Sam Movies
+☞ Developer: @TheTeleRoid
+☞ Library: Pyrogram
+☞ Language: Python 3
+☞ DataBase: Mongo DB
+☞ Bot Server: Heroku
+☞ Build Status: v1.0.1 [Beta]
+☞ Bot Updates:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
+☞ Bot Support: <a href='https://t.me/TeleRoid14'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
+☞ BotsList" : <a href='https://t.me/TheTeleRoid'>@𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/PredatorHackerzZ/EvaMaria  
@@ -93,11 +93,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """✪ Total Medias: <code>{}</code>
+✪ Total Users: <code>{}</code>
+✪ Total Chats: <code>{}</code>
+✪ Used Storage: <code>{}</code> 𝙼𝚒𝙱
+✪ Free Storage: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
