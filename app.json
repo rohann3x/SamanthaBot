@@ -1,5 +1,5 @@
 {
-    "name": "EvaMariaBot",
+    "name": "SamanthaMoviesBot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "keywords": [
       "telegram",
@@ -16,6 +16,7 @@
     ],
     "website": "https://github.com/EvamariaTG/EvaMaria",
     "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "logo": "https://telegra.ph/file/b50505fc5da68f48632d2.jpg",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
