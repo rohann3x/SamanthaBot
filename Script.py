@@ -1,9 +1,9 @@
 class script(object):
     START_TXT = """Hello {} 👨‍💻,
-My Name is <a href='https://t.me/SamanthaSearchBot'>Samantha Movies Bot</a>,\n
-I am A Simple Auto Filter + Movie Search + Manual Filter Bot.\n
-I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.\n
-Just Add Me To Your Group And Enjoy Of All Available Movies On TG.\n
+My Name is <a href='https://t.me/SamanthaSearchBot'>Samantha Movies Bot</a>
+I am A Simple Auto Filter + Movie Search + Manual Filter Bot.
+I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.
+Just Add Me To Your Group And Enjoy Of All Available Movies On TG.
 Made With ❤ BY @TeleRoidGroup"""
     HELP_TXT = """Hell'O {}
 Here is the Help For My Bot Commands."""
