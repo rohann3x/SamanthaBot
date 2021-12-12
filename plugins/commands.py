@@ -24,7 +24,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
             ],[
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🌀 Join For Movies', url='https://t.me/+jD86CLZqqUBjZDk1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -66,7 +66,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
             ],[
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🌀 Join For Movies', url='https://t.me/+jD86CLZqqUBjZDk1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
