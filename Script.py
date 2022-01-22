@@ -1,7 +1,6 @@
 class script(object):
     START_TXT = """Hello {} 👨‍💻,
 My Name is <a href='https://t.me/SamanthaSearchBot'>Samantha Movies Bot</a>
-I am A Simple Auto Filter + Movie Search + Manual Filter Bot.
 I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.
 Just Add Me To Your Group And Enjoy Of All Available Movies On TG.
 Made With ❤ BY @TeleRoidGroup"""
@@ -14,12 +13,12 @@ Here is the Help For My Bot Commands."""
 ☞ DataBase: Mongo DB
 ☞ Bot Server: Heroku
 ☞ Build Status: v1.0.1 [Beta]
-☞ Bot Updates:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
-☞ Bot Support: <a href='https://t.me/TeleRoid14'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
-☞ BotsList" : <a href='https://t.me/TheTeleRoid'>@𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
+☞ Updates:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
+☞ Support: <a href='https://t.me/TeleRoid14'> @𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
+☞ BotsList" : <a href='https://t.me/TheTeleRoid'> @𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/PredatorHackerzZ/EvaMaria  
+- Source - https://github.com/PredatorHackerzZ/SamanthaMoviesBot
 
 <b>DEVS:</b>
 - <a href=https://t.me/TheTeleRoid>Team TeleRoid</a>"""
@@ -28,7 +27,7 @@ Here is the Help For My Bot Commands."""
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Samantha maria should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
